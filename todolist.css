@@ -1,0 +1,116 @@
+body{
+    background: url("chicago.jpg");
+    background-size:1550px auto;
+    background-repeat:no-repeat; 
+    background-attachment: fixed;
+    }
+#container{
+    margin:5px auto;
+    padding:10px;
+    position: relative;
+    margin-bottom: 0px;
+    width:1400px;
+    max-width: auto;
+    max-height: auto;
+    min-width: auto;
+    min-height: auto;
+}
+h1
+{
+    position: relative;
+    left:38%;
+    color:beige;
+    text-decoration: underline overline;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 60px;
+    padding: 5px;
+    font-family:Helvetica;
+}
+#todo
+{
+    position: relative;
+    width:500px;
+    height: 30px;
+    border-radius: 10px;
+    min-width: auto;
+}
+.inp
+{
+    width:600px;
+    margin:0px auto;
+    max-width: auto;
+    min-width: auto;
+}
+#list
+{
+    
+    width: 960px;
+    position: relative;
+    left:20%;
+}
+li{
+    border:solid rgb(14, 124, 60) 3px;
+    margin:5px;
+    padding:10px;
+    position: relative;
+    border-radius: 35px;
+    align-content: center;
+    color:rgb(245, 237, 237);
+    right:10%;
+    font-size: 20px;
+    height:auto;
+    text-emphasis: bold;
+    word-wrap: break-word;
+}
+
+li:nth-child(odd)
+{
+    border:solid rgb(63, 3, 18)
+}
+li:nth-child(odd):hover{
+    background-color: rgb(55, 182, 119);
+}
+li:nth-child(even):hover{
+    background-color: rgb(85, 7, 27);
+}
+.btn:hover
+{
+    background-color: rgb(43, 107, 226);
+}
+.remove
+{
+    position: relative  ;
+    float:right;
+}
+.remove:hover
+{
+    background-color: red;
+}
+li a{
+text-decoration: none;
+}
+.btn
+{
+    position: relative;
+    float:right;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin: 5px;
+    font-size:22px;
+}
+
+.edit
+{
+    position: relative;
+    float:right;
+    height: 30px;
+    width: 50px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin: 5px;
+    font-size:22px;
+    bottom:8px;
+}
