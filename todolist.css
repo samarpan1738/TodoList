@@ -1,5 +1,5 @@
 body{
-    background: url("https://github.com/samarpan1738/Web_dev/raw/master/chicago.png");
+    background: url("/images/chicago.png");
     background-size:1550px auto;
     background-repeat:no-repeat; 
     background-attachment: fixed;
