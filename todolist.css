@@ -1,5 +1,5 @@
 body{
-    background: url("/images/chicago.png");
+    background: url("\images\chicago.png");
     background-size:1550px auto;
     background-repeat:no-repeat; 
     background-attachment: fixed;
